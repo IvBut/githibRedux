@@ -9,9 +9,9 @@ import Main from './main/Main';
 
 const App = () => {
   return (
-      <Router>
+      <Router >
         <div className="container">
-          <Route path="/" component={Main}/>
+          <Route path="/" component={Main} />
         </div>
       </Router>
   );
